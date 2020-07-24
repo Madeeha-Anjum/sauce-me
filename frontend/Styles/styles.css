@@ -1,0 +1,31 @@
+/* https://coolors.co/340068-ff6789-fffcf9-b1ede8-6d435a */
+body {
+  background-color: var(--white);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+:root {
+  --blue: #2978a0;
+  --light-blue: #b1ede8;
+  --white: #fffcf9;
+  --pink: #ff6978;
+  --purple: #340068;
+  --dark-purple: #6d435a;
+}
+
+.title {
+  height: 200px;
+  display: flex;
+  /* flex-direction: row; --------defult*/
+  /* y axis  */
+  align-items: center;
+  /* x axis  */
+  justify-content: center;
+
+  background-color: var(--purple);
+}
+
+.title-text {
+  color: var(--blue);
+  font-size: 5rem;
+  font-weight: 400;
+}
